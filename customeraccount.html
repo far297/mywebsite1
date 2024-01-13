@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #82CAFF;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header img {
+  width: 5%;
+  margin: none;
+  padding: none;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #82CAFF;
+   color: black;
+   text-align: center;
+}
+
+/* Add some styling for the form */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="Logo.png" alt="Logo">
+  <div class="header-right">
+   <a href="homepage.html">Home</a>
+    <a  href="product.html">Product</a>
+    <a href="cart.html">Cart</a>
+    <a href="order.html">Order</a>
+    <a class="active" href="customeraccount.html">Profile</a>
+  </div>
+</div>
+
+<div class="form-container">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="4" required></textarea>
+
+  <label for="payment">Payment Method:</label>
+  <select id="payment" name="payment" required>
+    <option value="credit">Credit Card</option>
+    <option value="paypal">PayPal</option>
+  </select>
+</div>
+
+<div class="footer">
+ <a href="aboutus.html">About Us</a>
+    <a href="Assignmentcontact.html">Contact Us </a>
+  <p>Copyright@2023 F.A.F</p>
+</div>
+
+</body>
+</html>

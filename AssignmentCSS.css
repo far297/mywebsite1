@@ -1,0 +1,147 @@
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #82CAFF;
+  padding: 20px 10px;
+  
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header img {
+  width: 5%;
+  margin: none;
+  padding: none;
+}
+
+.header a:hover {
+  background-color: #00BFFF;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #82CAFF;
+   color: black;
+   text-align: center;
+}
+
+.contact-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    .div1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .instagram-icon {
+      width: 50px; /* Adjust the size as needed */
+      height: 50px; /* Adjust the size as needed */
+      border-radius: 50%;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .tiktok-icon {
+      width: 50px; /* Adjust the size as needed */
+      height: 50px; /* Adjust the size as needed */
+      border-radius: 50%;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+	
+.sidenav {
+      width: 170px;
+      padding: 15px;
+      background-color: #82CAFF;
+      float: left;
+    }
+     
+
+.sidenav a {
+  padding: 30px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ddd;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+	  float: left;
+      width: calc(100% - 230px);
+      padding: 15px;
+}
+    
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.column img {
+    width: 50%;
+    max-width: 70%; 
+    height: auto;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  p.groove {
+	  border-style: groove;
+	  border-color: skyblue;
+	  padding: 10px; 
+	 border-width: 2px;
+	   margin-bottom: -20px;
+	  }
+
+ button {
+      margin-right: 10px; /* Adjust the margin as needed */
+    }
+  
+
+ 
